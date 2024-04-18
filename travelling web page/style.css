@@ -1,0 +1,190 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url(travelling3.jpg);   
+    background-size: cover;
+}
+
+header {
+    background-color: #333; 
+    padding: 5px; 
+    position: relative;
+    bottom: 8px;
+    left: 0px;
+    right: 0px;
+}
+
+header p {
+    margin: 0 auto; 
+    width: 800px;
+    color: aqua;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    width: 750px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+main {
+    padding: 10px;
+    position: relative;
+    bottom: 30px; 
+}
+main h2 {
+    color: black;
+}
+
+h1 {
+   text-align: center;
+}
+
+button{
+    color: #fff;
+    background-color: #333;
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+}
+#headingone{
+    color: rgb(240, 129, 2);
+    font-size: 35px;
+    text-transform: capitalize;
+    width: 700px;
+    position: relative;
+    left: 400px;
+    bottom: 10px;
+    
+}
+#box p{
+    background-color: rgb(191, 209, 241);
+    color: black;
+    line-height: 24px;
+    border-radius: 8px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 5px;
+    position: relative;
+    top: 5px;
+    bottom: 0px;
+}
+.headingtwo{
+    color: black;
+    /* text-decoration: white wavy underline; */
+    font-size: 30px;
+    width: 245px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(0, 1, 14);
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(243, 237, 241);
+    margin-top: 30px;
+    position: relative;
+    top: 10px;
+    transition-property: all;
+    transition-duration: 0s;
+}
+/* div:hover{
+    background-color: crimson;
+} */
+
+div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+/* #box1{
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    right: 1250px;
+    height: 35px;
+} */
+
+.button1{
+    position: relative;
+    height: 35px; 
+    font-size: 18px;  
+}
+.button2{
+    position: relative;
+    height: 35px; 
+    font-size: 18px;  
+}
+.button3{
+    position: relative;
+    height: 35px; 
+    font-size: 18px;  
+}
+.button1:hover{
+    background-color: rgb(201, 150, 10);
+    /* transition-property: all;
+    transition-duration: .5s; */
+    transition: all .5s ease-in ;
+    /* transform: rotate(360deg); */
+    transform: rotate(360deg) ;
+}
+.button2:hover{
+    background-color: rgb(201, 150, 10);
+    /* transition-property: all;
+    transition-duration: .5s; */
+    transition: all .5s ease-in ;
+    transform: rotate(360deg);
+}
+.button3:hover{
+    background-color: rgb(201, 150, 10);
+    /* transition-property: all;
+    transition-duration: .5s; */
+    /* rotate: 3 4 2 360deg; */
+    transform: rotate(360deg);
+    transition: all .5s ease-in ;
+    
+}
+
+.headingtwo:hover{
+    background-color: rgb(180, 111, 232);
+    /* transition-property: all;
+    transition-duration: .5s; */
+    transition: all .5s ease-in ;
+    /* transform: rotate(360deg) ; */
+    transform: scaleX(1.2);
+    transform: scaleY(1.2);
+    /* transform: translateX(500px);  to move to right side*/
+}
+
+#box p:hover{
+    background-color: rgb(222, 20, 175);
+    /* transition-property: all;
+    transition-duration: .5s; */
+    transition: all .5s ease-in ;
+    /* transform: rotate(360deg) ; */
+
+}
+#headingone:hover{
+    background-color: rgb(234, 240, 216);
+    /* transition-property: all;
+    transition-duration: 1s; */
+    border-radius: 10px;
+    transition: all .5s ease-in ;
+}
+
+header p:hover{
+    background-color: rgb(97, 75, 7);
+    /* transition-property: all;
+    transition-duration: 1s; */
+    transition: all .5s ease-in ;
+    border-radius: 10px;
+}

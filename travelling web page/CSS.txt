@@ -1,0 +1,247 @@
+CSS
+basic : all content of the div come in next line so when ever we want to next line use div.
+when we are creating a list and the dots will come so when we wan tto remove the dots we can use    list-style-type: none; it will remove the dots from left side.
+
+1. <p class="paragraph"> in this we can use the class and make the css color for the particular class itself (.paragraph{
+    color: rgb(201, 32, 64);
+})
+
+2. Font weight is minimun 100 and maximum is 900
+
+3.while using the <p id="one"> heading one </p> we can only use the css to this one.
+in css        #one{
+font-family:;
+color:; or any we can use it
+}
+
+4. units in css
+(a) Absolute
+pixels(px)
+96px = 1inch
+font-size:2px;
+
+5.line height
+line-height: 24px;
+
+6.text-transform : uppercase/lowercase/capitalize/none
+text-decoration: none;( if the underline is there or any thing we want to remove)
+
+7.text-align: center;
+
+8. font-family: 'Times New Roman', Times, serif;
+
+9.border,margin,padding
+height:200px;
+width:50px,
+border:
+border-width: 2px;
+border-style:solid/dotted/dashed
+border-color:black;
+border-radius: 10px or
+border-radius:50%;
+
+padding-left
+padding-right
+padding-bottom
+padding-top
+padding:1px2px3px4px
+padding:top,right,bottom,left from above
+
+
+margin-left
+margin-right
+margin-bottom
+margin-top
+margin:1px2px3px4px
+margin:top,right,bottom,left from above
+
+
+10. display:inline
+display:block
+display: inline-bloc
+display:none
+
+11.visibility:hidden (it will not appear)
+
+12. Alpha value is between 0-1(0.12 or etc)
+color: rgba(255,0,0,0.5)
+
+
+13. Relative units:
+%- width:33%; or height : 45%;, margin-left: 50%;
+
+em- font-size:2em (it will be the 2x of the parent of the font which we assinged in the first in the div or depends upon the elements  property), width:5em; (5 times of width from the parent we assinged) em is the relative to the font size of the parent.
+
+height:1vh,50vh it will tell the amount of height from the browser or the parent.
+viewport height
+
+width:1vw,viewport width
+
+rem : font size of html, what we set for the root element it will act like that.
+
+
+position property:
+
+static : top, right,bottom.left, z-index it is default position in css
+if i want to give distance from doccumnet from the top or fron documnet fron the right or from the document from the bottom, we can do right left and all.
+
+
+relative: we can change any top, bottom,left,right
+
+absolute: position which is non static, parent parents elements(ancestors). from the closer position. for right side we can use this also
+
+fixed: it will chnage to all positions from the right side. used in navigation bar
+
+sticky: it will stick when it will come in proper position and used in the nav bar.
+
+z-index: if a value given as 1 then it will come up and if negative value -1 then it will go below that.
+
+
+Background image: to set back ground image in any button, paragraph any thing body etc.
+
+Background-size: cover (to set proper in page), contain(complete to ft  and image visible and may be repeated the image and remaining space will image will come, auto(automatically it will fit and enlarge image will come).
+
+4:00:00 hrs again
+    
+Flexbox: it is a one-dimensional layout. it is flexible. (4hrs__________)
+flex container when we write display property as the flex it will become the flex conatiner. these will try make them selves to fit in any container or to become small or large.till font size will allow, if font size is bigger then it will come outside. 
+1.flex direction: sets how items are placed in the flex container along with axis and direction.
+flex-direction:row(it is default) from left to right
+flex-direction: row-reverse (right to left)
+flex-direction: coloumn; vertically arranged top to bottom
+flex-direction:column-reverse( bottom to top).
+
+justify-content:flex-start; (main access of start from left to right)
+justify-content:flex-end ;(main access of start from right to left)
+justify-content:centre ;(main access of start from  the centre)
+justify-content:space-around; (if there is a apce then we can add this one and they will split 4.06 hrs the space were from corner space it will double in the between)
+justify-content:space-between (the all the space will come in the between corner will no spce)
+justify-content:space-evenly (space will spread same amount space in all)
+
+level4
+felx-wrap: nowrap; it will not wrap 
+flex-wrap:wrap; top to bottom
+felx-wrap:wrap-reverse; it will come bottom to top
+
+align-items: centre; it will come in the  centre from axis. apply in container
+align-content: space between & around the content along cross axis.
+align-self: felx-end, start and etc aligmen tof individual along cross axis apply in indivusal  
+flex-shrink: 2; it will shrink upto to 2 times in which we will aplly.
+flex-grow:2; it will increase its size to 2 times, until all are adjust.
+
+when they are in coloumn then we can set them as single line display: inline it will come in same line.
+
+for the left to right we will use justify-content:centre.
+for top to bottom we will use align-items:centre to in between.
+
+
+Media Queries:
+Help to create a reponsive website. website should be responsive 
+@media in that we can set in width 500px to set color change in when it will reach to 500px.
+we can set the font size small and big when it is needed in this.
+@media(min-width:200px)and(max-width:400px){
+div{
+background-color:green;
+}
+}
+
+
+level 5
+effects, move, animations.
+Transitions 
+pseudo class : define a different state
+Transistion-property: property that we wan to transitions, we can change the color or property when the cursor will be on that
+transition-duration:4s; (4 seconds it will come and go) t is a time limit.
+transistion-timing-function: see in mdn once all properties well explained
+transition-delay: 1s. it will delay after the 1 second after 1s it will apply the transistion property.
+
+Transistion shorthand
+property name| duration|timing-function|delay
+transition:font-size 2s ease-in-out 0.2s
+
+
+CSS transform:
+transform:rotate(45deg); it will apply in the content also.
+we can rotate in with axis to x y z
+
+Scale
+transform:scale(2); it will increase the size in 2 times
+transform:scale(1,2); it will increase in y axis but not in x axis
+transform:scale(2,1); it will increase in x axis but not in y axis
+we can do hover in this 
+div:hover{
+transform:scaleY(2)
+} when we will go to that our  cursor then that y axis size will incsrease
+
+Translate:
+transform:translate(20px); it will tanslate in x and y axis
+transfrom:translate(20px, 50px);
+transform:translateX(500px);  move right or left side or -500px
+transform:translateY(500px); move up and down or -500 px
+
+Skew: 
+transform:skew(90deg); check it in output
+
+Animation:
+@keyframe myNmae(we have suggest one name){
+form{background-color:___}
+to {background-color:___}
+}
+it will tell the template
+animation-name: myName;
+animation-duration:
+animation-timing-function:
+animation-delay:
+animation-iteration-count: (it will tell how many mine animation will come 1,2 or infinte)
+animation-direction: normal
+animation-direction:reverse
+animation-direction:alternate
+animation-direction:alternate-re
+
+animation: myName 2s linear 3s infinite normal
+name, duration, timing function, iteration count, direction
+
+Animation percentage %
+@keyframe myNmae(we have suggest one name){
+0%{font-size:20px;}
+50%{font-size:30;}
+100%{font-size:40px;}
+}
+
+loader - it is a loading when the network is low.
+.loader{
+width:200px;
+height:200px;
+border-radius:50%;
+border-top:20px solid black;
+animation: spinanimate 3s ease-in 0s infinte normal;
+}
+
+@keyframes spinanimate{
+from{
+transform:rotate(0deg):
+}
+to{
+transform:rotate(360deg):
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
